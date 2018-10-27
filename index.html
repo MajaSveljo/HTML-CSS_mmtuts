@@ -5,37 +5,41 @@
     <head>
         <title>Hello world!</title>
         <meta charset="UTF-8">
+        <!--
+            Styles can be positioned here like this
+            this is the weakest, but the best way to include them
+        -->
+        <link rel="stylesheet" href="style.css">
+        <!--
+            Styles can be positioned here like this
+            and thi position is stronger than the included file
+        -->
+        <style>
+            h2 {
+                color: red;
+                font-size: 90px;
+                margin: 0px;
+                background-color: blue;
+                text-align: center;
+            }
+            p {
+                color: #fff;
+                background-color: rgb(255, 0, 0);
+            }
+        </style>
     </head>
     <body>
-        <section>
-            <h2>
-                Latest posts
+        <div>
+            <!--
+                Or here like this, which is called "inline" css.
+                Inline beats other styling (included, or from a head tag)
+            -->
+            <h2 style="background-color: #f3f3f3">
+                This is the title
             </h2>
-            <h3>
-                Here you can see all the latest posts
-            </h3>
-            <article>
-                <h4>
-                    This is the post title
-                </h4>
-                <p>
-                    This is some content inside this post
-                </p>
-                <h5>
-                    Author: Maja
-                </h5>
-            </article>
-            <article>
-                    <h4>
-                        This is the post title
-                    </h4>
-                    <p>
-                        This is some content <br> inside this post
-                    </p>
-                    <h5>
-                        Author: Maja
-                    </h5>
-                </article>
-        </section>
+            <p>
+                Lorem ipsum
+            </p>
+        </div>
     </body>
 </html>
