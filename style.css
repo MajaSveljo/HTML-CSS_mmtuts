@@ -94,22 +94,28 @@ input, select {
     vertical-align:middle;
 }
 
-/* The end of the CSS reseting code 
-The purpose of the CSS reset code is to ensure that the CSS appears the same in all
-the browsers. Later code will overrun the previous one in the reset*/
+/* The end of the CSS reseting code */
 
-.index-h2 {
-    color: red;
+/*my code*/
+
+h1 {
+    font-family: arial, "Times New Roman";
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: left;
+    text-decoration: underline;
+    text-indent: 30px;
+    text-transform: capitalize;
+    color: rgba(77, 0, 255, 0.5);
+    letter-spacing: 10px;
 }
 
-.title {
-    color: green;
+a {
+    text-decoration: none;
 }
 
-.index-intro p{
-    color: magenta;
-}
-
-#index-h2 {
-    color: darkolivegreen;
+p {
+    font-size: 20px;
+    line-height: 40px;
 }
