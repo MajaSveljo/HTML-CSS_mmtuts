@@ -98,10 +98,18 @@ input, select {
 The purpose of the CSS reset code is to ensure that the CSS appears the same in all
 the browsers. Later code will overrun the previous one in the reset*/
 
-h2 {
+.index-h2 {
     color: red;
 }
 
 .title {
     color: green;
+}
+
+.index-intro p{
+    color: magenta;
+}
+
+#index-h2 {
+    color: darkolivegreen;
 }
